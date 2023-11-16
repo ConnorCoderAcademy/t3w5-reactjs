@@ -1,4 +1,3 @@
-import './App.css';
 import FruitList from './FruitList';
 import Title from './Title';
 import Footer from './Footer';

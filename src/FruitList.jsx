@@ -1,3 +1,6 @@
+import './FruitList.css';
+
+
 // let someFruit = [
 //     "mangoes",
 //     "pears",
@@ -12,7 +15,7 @@ function FruitList (props) {
       return null;
     }
 
-    let fruitListItems = props.listToShow.map((fruit => <li key={fruit}>{fruit}</li>))
+    let fruitListItems = props.listToShow.map((fruit => <li class="listMessage" key={fruit}>{fruit}</li>))
     console.log(props.children);
     return (
       <>
